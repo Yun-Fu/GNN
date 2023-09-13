@@ -8,7 +8,7 @@ from torch_geometric.utils import add_self_loops,remove_self_loops
 from torch_geometric.nn.inits import glorot,zeros
 from torch_geometric.nn import MessagePassing
 
-#2嘿嘿
+#改变了
 class MyGATConv2(MessagePassing):
     def __init__(self,in_channels,out_channels,heads,flow='source to target',concat=True,bias=True,dropout=0,negative_slope=0.2,**kwargs):
 
